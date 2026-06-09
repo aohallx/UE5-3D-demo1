@@ -2,7 +2,7 @@
 
 Third-person action prototype built in **Unreal Engine 5.4** with melee and ranged combat, stealth takedowns, equipment management, and AI-driven enemies in a Japanese-inspired environment.
 
-> Portfolio showcase repo. Source project lives locally; this repository contains screenshots, demo video, feature notes, and architecture documentation for portfolio and public viewing.
+> Portfolio showcase repo with screenshots, demo video, feature notes, and architecture documentation for portfolio and public viewing.
 
 ## Gameplay demo
 

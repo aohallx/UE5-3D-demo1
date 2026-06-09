@@ -4,7 +4,11 @@ Third-person action prototype built in **Unreal Engine 5.4** with melee and rang
 
 > Portfolio showcase repo. Source project lives locally; this repository contains screenshots, demo video, feature notes, and architecture documentation for portfolio and public viewing.
 
-![Editor overview](media/screenshots/01-editor-overview.png)
+## Gameplay demo
+
+<video src="media/video/demo.mp4" controls width="100%"></video>
+
+*Full reel: [media/video/demo.mp4](media/video/demo.mp4)*
 
 ## Quick links
 
@@ -41,45 +45,35 @@ Third-person action prototype built in **Unreal Engine 5.4** with melee and rang
 | Action | Input |
 |--------|-------|
 | Move / Look | WASD + Mouse |
-| Jump | Space |
 | Sprint | Shift |
 | Crouch | Ctrl |
+| Dodge | X |
+| Interact | G |
+| Inventory / Equipment | E |
+| Toggle 1st / 3rd person | M |
+| Camera lock | L |
 | Attack | LMB |
-| Dodge | (bound in `IA_Dodge`) |
-| Interact / Assassinate | (bound in `IA_Interact` / `IA_Assasin`) |
-| Equipment menu | (bound in `IA_EquipmentMenu`) |
-| Target lock | (bound in `IA_TargetLock`) |
-| Sniper aim | (bound in `IA_Snipe_Aim`) |
-| Vault | (bound in `IA_Vault`) |
-| Toggle 1st / 3rd person | (bound in `IA_PerspectiveChange`) |
-
-## Demo video
-
-Add a gameplay capture to `media/video/demo.mp4`, then embed it here:
-
-```markdown
-[![Gameplay demo](media/screenshots/02-gameplay-thumb.png)](media/video/demo.mp4)
-```
-
-**Suggested capture checklist**
-- 30–90 seconds of combat (melee + ranged)
-- One stealth assassination
-- Enemy AI chase or patrol moment
-- Equipment swap
-- One environment shot (shrine / landscape)
+| Jump | Space |
 
 ## Screenshots
 
-| | |
-|---|---|
-| Editor / project overview | `01-editor-overview.png` |
-| Combat | `02-combat.png` *(add)* |
-| Stealth assassination | `03-stealth.png` *(add)* |
-| Equipment UI | `04-equipment.png` *(add)* |
-| AI / enemies | `05-enemies.png` *(add)* |
-| Environment | `06-environment.png` *(add)* |
+### Editor loading — UE 5.4.3 (`japan1`)
 
-See [media/screenshots/README.md](media/screenshots/README.md) for capture tips.
+![Editor loading](media/screenshots/02-editor-loading.png)
+
+### First-person gameplay — snow environment, HUD, AI
+
+![First-person gameplay](media/screenshots/03-first-person-gameplay.png)
+
+### In-editor combat prototype
+
+![Editor overview](media/screenshots/01-editor-overview.png)
+
+| File | Description |
+|------|-------------|
+| `02-editor-loading.png` | Project splash — UE 5.4.3, blueprint compile |
+| `03-first-person-gameplay.png` | First-person view, HUD, enemies in snow map |
+| `01-editor-overview.png` | Sword combat in prototype level |
 
 ## Project structure (source)
 
@@ -110,7 +104,7 @@ Content/
 This repo is designed to link from a portfolio site. Suggested embed pattern:
 
 - **Hero** — best environment or combat screenshot
-- **Video** — `media/video/demo.mp4` or YouTube/Vimeo link
+- **Video** — embed `media/video/demo.mp4` or link to this repo's README
 - **Details** — link to [FEATURES.md](docs/FEATURES.md) and [ARCHITECTURE.md](docs/ARCHITECTURE.md)
 - **Tech tags** — `Unreal Engine 5`, `Blueprints`, `Behavior Trees`, `Enhanced Input`, `Motion Warping`
 

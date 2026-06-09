@@ -9,7 +9,7 @@ Features inferred from the `japan1` project content tree. Update this document a
 - [x] Sprint, crouch, jump, dodge roll
 - [x] Vaulting over obstacles
 - [x] Target lock
-- [x] First-person / third-person camera toggle (`IA_PerspectiveChange` — press to switch views)
+- [x] First-person / third-person camera toggle (`M` / `IA_PerspectiveChange`)
 - [x] Player stats component (`BPC_PlayerStats`)
 - [x] Attack system component (`BPC_AttackSystem`)
 - [x] RPG character animation blueprint with locomotion blend spaces

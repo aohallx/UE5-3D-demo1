@@ -124,7 +124,7 @@ This repo is designed to link from a portfolio site. Suggested embed pattern:
 
 ## Author
 
-**Aaron Hall** — [GitHub](https://github.com/aohallx)
+**Aidan O'Halloran** — [GitHub](https://github.com/aohallx)
 
 ## License
 

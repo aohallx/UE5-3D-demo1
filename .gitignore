@@ -1,0 +1,28 @@
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# Large media (uncomment if using Git LFS instead)
+# media/video/*.mp4
+
+# Accidental secrets
+.env
+*.key
+*.pem
+credentials*
+
+# Unreal project artifacts (if ever copied into this repo)
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+*.sln
+*.xcodeproj
+*.xcworkspace

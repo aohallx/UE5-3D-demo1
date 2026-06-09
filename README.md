@@ -10,14 +10,18 @@ Third-person action prototype built in **Unreal Engine 5.4** with melee and rang
 
 *Full reel: [media/video/demo.mp4](media/video/demo.mp4)*
 
+**Portfolio page:** [aidanohalloran.com/projects/unreal-game](https://aidanohalloran.com/projects/unreal-game)
+
 ## Quick links
 
 | Resource | Location |
 |----------|----------|
+| Portfolio site | [aidanohalloran.com/projects/unreal-game](https://aidanohalloran.com/projects/unreal-game) |
 | Feature list | [docs/FEATURES.md](docs/FEATURES.md) |
 | Architecture notes | [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) |
-| Screenshots | [media/screenshots/](media/screenshots/) |
-| Demo video | [media/video/](media/video/) |
+| Gameplay screenshots | [media/screenshots/gameplay/](media/screenshots/gameplay/) |
+| Editor screenshots | [media/screenshots/editor/](media/screenshots/editor/) |
+| Demo video | [media/video/demo.mp4](media/video/demo.mp4) |
 
 ## Highlights
 
@@ -57,23 +61,42 @@ Third-person action prototype built in **Unreal Engine 5.4** with melee and rang
 
 ## Screenshots
 
-### Editor loading — UE 5.4.3 (`japan1`)
+### Gameplay
 
-![Editor loading](media/screenshots/02-editor-loading.png)
+| | |
+|---|---|
+| Third-person snow map, HUD, AI chase | Sniper scope aiming |
+| ![Third-person snow](media/screenshots/gameplay/third-person-snow.png) | ![Sniper scope](media/screenshots/gameplay/sniper-scope.png) |
+| Equipment menu | Melee combat with hit detection |
+| ![Equipment menu](media/screenshots/gameplay/equipment-menu.png) | ![Melee combat](media/screenshots/gameplay/melee-combat.png) |
 
-### First-person gameplay — snow environment, HUD, AI
+![Boss AI patrol with behavior tree debug](media/screenshots/gameplay/boss-ai-patrol.png)
 
-![First-person gameplay](media/screenshots/03-first-person-gameplay.png)
+*More: [media/screenshots/gameplay/](media/screenshots/gameplay/)*
 
-### In-editor combat prototype
+### Editor & Blueprints
 
-![Editor overview](media/screenshots/01-editor-overview.png)
+| | |
+|---|---|
+| `BP_AI_Boss` — sword socket, widgets, collision | `BT_AI_Boss` — chase, attack, patrol logic |
+| ![BP AI Boss](media/screenshots/editor/bp-ai-boss.png) | ![BT AI Boss](media/screenshots/editor/bt-ai-boss.png) |
+| Assassination radius + ragdoll (`BP_Dummy`) | `BP_ThirdPersonCharacter` event graph |
+| ![Assassination blueprint](media/screenshots/editor/bp-dummy-assassination.png) | ![Event graph](media/screenshots/editor/bp-third-person-event-graph.png) |
 
-| File | Description |
-|------|-------------|
-| `02-editor-loading.png` | Project splash — UE 5.4.3, blueprint compile |
-| `03-first-person-gameplay.png` | First-person view, HUD, enemies in snow map |
-| `01-editor-overview.png` | Sword combat in prototype level |
+![Editor PIE — world settings, game mode, AI actors](media/screenshots/editor/editor-pie-world-settings.png)
+
+![Landscape terrain sculpting](media/screenshots/editor/landscape-terrain.png)
+
+*More: [media/screenshots/editor/](media/screenshots/editor/)*
+
+### Earlier captures
+
+| | |
+|---|---|
+| UE 5.4.3 project loading | First-person snow gameplay |
+| ![Editor loading](media/screenshots/02-editor-loading.png) | ![First-person gameplay](media/screenshots/03-first-person-gameplay.png) |
+
+![Sword combat prototype level](media/screenshots/01-editor-overview.png)
 
 ## Project structure (source)
 
@@ -104,7 +127,7 @@ Content/
 This repo is designed to link from a portfolio site. Suggested embed pattern:
 
 - **Hero** — best environment or combat screenshot
-- **Video** — embed `media/video/demo.mp4` or link to this repo's README
+- **Video** — embed `media/video/demo.mp4` or link to [aidanohalloran.com/projects/unreal-game](https://aidanohalloran.com/projects/unreal-game)
 - **Details** — link to [FEATURES.md](docs/FEATURES.md) and [ARCHITECTURE.md](docs/ARCHITECTURE.md)
 - **Tech tags** — `Unreal Engine 5`, `Blueprints`, `Behavior Trees`, `Enhanced Input`, `Motion Warping`
 
